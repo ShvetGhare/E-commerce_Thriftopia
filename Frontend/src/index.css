@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+a.active hr {
+  display: block;
+  transition: ease-in-out;
+  animation-duration: 400ms;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Oxanium:wght@200..800&display=swap");
+/* For Limited Access 
+font-family: "Bona Nova SC", serif;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Oldenburg&family=Oxanium:wght@200..800&display=swap");
+/* For Antique
+  font-family: "Oldenburg", serif;
+ */
+
+body {
+  font-family: "Bona Nova SC", serif;
+}
